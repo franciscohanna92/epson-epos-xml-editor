@@ -1,0 +1,108 @@
+﻿/*! ePOS-Print Editor Version 5.0.2 Copyright (C) SEIKO EPSON CORPORATION 2012. All rights reserved. */
+
+html {
+    -ms-touch-action: pan-y;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    width: 100%;
+    max-width: 100%;
+}
+.hidden {
+    display: none;
+}
+.edit-category {
+    font-size: small;
+    margin: 1px;
+    padding: 1px;
+}
+.edit-item {
+    float: left;
+    margin: 1px;
+}
+.edit-caption {
+    font-size: x-small;
+    text-align: center;
+    width: 48px;
+}
+.edit-content {
+    float: left;
+    font-size: small;
+    width: 75%;
+    display: none;
+}
+.edit-remove {
+    float: right;
+    font-size: x-small;
+    display: none;
+}
+.edit-break {
+    clear: both;
+}
+.edit-holder {
+    border: 1px dotted #808080;
+    background-color: #ffffa0;
+    height: 96px;
+}
+.edit-label {
+    font-size: small;
+}
+.slider {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.tooltip {
+    position: absolute;
+    color: #ffffff;
+    background: #000000;
+    border: 1px solid #ffffff;
+    padding: 1em;
+    font-size: small;
+    opacity: 0.6;
+    display: none;
+    z-index: 1000;
+}
+.attr-text-data, .attr-barcode-data, .attr-symbol-data, .attr-command-data {
+    width: 100%;
+}
+.preview-line {
+    background-color: #f0f0f0;
+    float: left;
+}
+.preview-break {
+    clear: both;
+}
+#edit-left {
+    float: left;
+    width: 25%;
+}
+#edit-right {
+    float: left;
+    width: 75%;
+}
+#edit-sequence {
+    background-color: #c0c0c0;
+    padding: 32px;
+}
+#edit-button {
+    text-align: right;
+}
+#api-code, #xml-doc, #print-doc, #print-info, #import-doc, #import-info {
+    font-size: medium;
+}
+#preview-text, #preview-page, #preview-area {
+    display: none;
+}
+#preview-width {
+    font-size: small;
+    text-align: center;
+    color: #a0a0a0;
+}
+#preview-info, #setting-version {
+    color: #808080;
+    font-size: x-small;
+}
